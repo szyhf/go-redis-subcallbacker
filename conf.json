@@ -1,0 +1,15 @@
+{
+	"Redis":{
+		"Addr":     "localhost:6379",
+		"Password": "",
+		"DB":       5
+	},
+	"Callbacks":[
+		{
+			"Sub":"hello",
+			"Urls":[
+				"http://localhost?msg={{msg}}"
+			]
+		}
+	]
+}
